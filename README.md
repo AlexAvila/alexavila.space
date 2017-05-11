@@ -1,8 +1,43 @@
-# Algo Alguma(s) Coisa(s)
+# AlexAvila.Space
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/AlexAvila/alexavila.space/blob/master/LICENSE.md)
 
 > Meu site pessoal v1.0
+
+## Stack
+- Task Runner: [Gulp] (http://gulpjs.com/) 
+- HTML Template Engine: [Pug] (http://pugjs.org/api/getting-started.html)
+- CSS Preprocessor: [Stylus] (http://stylus-lang.com/)
+- JS Transpiler: [babel] (http://gulpjs.com/)
+
+## Folder Structure
+
+.
+├── README.md
+├── LICENSE.md
+├── CONTRIBUTING.md
+├── out/
+├── src/
+|   ├── icons/
+|   ├── assets/
+|   |   ├── img/
+|   |   ├── scripts/
+|   |   |   └── script.js
+|   |   └── styles/
+|   |       ├── modules/
+|   |       └── style.styl
+|   ├── partials/
+|   |   ├── footer.pug
+|   |   └── header.pug
+|   ├── layouts/
+|   |   └── default.pug
+|   ├── projects.pug
+|   └── index.pug
+├── gulpfile.js
+├── package.json
+├── projects.json
+├── .editorconfig
+└── .gitignore
 
 ## Versioning
 
