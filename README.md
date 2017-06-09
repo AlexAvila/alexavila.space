@@ -12,59 +12,35 @@
 - CSS Preprocessor: [Stylus] (http://stylus-lang.com/)
 - JS Transpiler: [babel] (http://gulpjs.com/)
 
-## Folder Structure
 
-.
-├── README.md
+## Folders Structure
 
-├── LICENSE.md
-
-├── CONTRIBUTING.md
-
-├── out/
-
-├── src/
-
-|   ├── icons/
-
-|   ├── assets/
-
-|   |   ├── img/
-
-|   |   ├── scripts/
-
-|   |   |   └── script.js
-
-|   |   └── styles/
-
-|   |       ├── modules/
-
-|   |       └── style.styl
-
-|   ├── partials/
-
-|   |   ├── footer.pug
-
-|   |   └── header.pug
-
-|   ├── layouts/
-
-|   |   └── default.pug
-
-|   ├── projects.pug
-
-|   └── index.pug
-
-├── gulpfile.js
-
-├── package.json
-
-├── projects.json
-
-├── .editorconfig
-
-└── .gitignore
-
+	.
+	├── README.md
+	├── LICENSE.md
+	├── CONTRIBUTING.md
+	├── out/
+	├── src/
+	|   ├── icons/
+	|   ├── assets/
+	|   |   ├── img/
+	|   |   ├── scripts/
+	|   |   |   └── script.js
+	|   |   └── styles/
+	|   |       ├── modules/
+	|   |       └── style.styl
+	|   ├── partials/
+	|   |   ├── footer.pug
+	|   |   └── header.pug
+	|   ├── layouts/
+	|   |   └── default.pug
+	|   ├── projects.pug
+	|   └── index.pug
+	├── gulpfile.js
+	├── package.json
+	├── projects.json
+	├── .editorconfig
+	└── .gitignore
 
 ## Versioning
 
